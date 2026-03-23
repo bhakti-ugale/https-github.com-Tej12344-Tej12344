@@ -10,9 +10,7 @@
 
 <br/>
 
-<!-- Badges -->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Tejas_Ugale-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tejas-ugale-data-engineer/)
-[![SnowPro](https://img.shields.io/badge/SnowPro-Core_Certified-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)](https://www.credly.com)
 ![Profile Views](https://komarev.com/ghpvc/?username=tejasugale&style=for-the-badge&color=0d6efd&label=PROFILE+VIEWS)
 
 </div>
@@ -24,20 +22,24 @@
 ```python
 class DataEngineer:
     def __init__(self):
-        self.name         = "Tejas Ugale"
-        self.role         = "Data Engineer"
-        self.experience   = "2+ Years"
-        self.location     = "Pune, Maharashtra, India 🇮🇳"
-        self.certification = "SnowPro Core Certified ❄️"
+        self.name          = "Tejas Ugale"
+        self.role          = "Data Consultant (C1) @ Snap Analytics"
+        self.experience    = "2+ Years"
+        self.location      = "Pune, Maharashtra, India 🇮🇳"
+        self.certifications = [
+            "SnowPro Core Certified ❄️",
+            "Matillion ETL Foundation Certified 🟢"
+        ]
 
     @property
     def tech_stack(self):
         return {
-            "cloud_dwh"  : ["Snowflake ❄️"],
-            "etl_tools"  : ["dbt", "Matillion", "Apache Airflow"],
+            "cloud_dwh"  : ["Snowflake ❄️", "AWS"],
+            "etl_tools"  : ["Matillion", "dbt"],
             "languages"  : ["SQL", "Python"],
             "practices"  : ["Data Modelling", "ELT/ETL Pipelines",
-                            "Data Warehousing", "Analytics Engineering"],
+                            "Data Warehousing", "Pipeline Monitoring",
+                            "Analytics Engineering"],
         }
 
     def mission(self):
@@ -57,12 +59,10 @@ print(me.mission())
 ### 🗄️ Data Warehouse & Cloud
 ![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 
 ### ⚙️ ETL / ELT & Data Transformation
-![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
 ![Matillion](https://img.shields.io/badge/Matillion-1EC8C8?style=for-the-badge&logoColor=white)
-![Apache Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
 
 ### 💻 Languages
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -81,7 +81,6 @@ print(me.mission())
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 </div>
 
@@ -93,7 +92,8 @@ print(me.mission())
 
 | Certification | Issuer | Status |
 |---|---|---|
-| ⭐ **SnowPro Core Certified** | Snowflake | ✅ Active |
+| ❄️ **SnowPro Core Certified** | Snowflake | ✅ Active |
+| 🟢 **Matillion ETL Foundation** | Matillion | ✅ Active |
 
 </div>
 
@@ -105,54 +105,54 @@ print(me.mission())
 📐 Data Modelling          ██████████████████░░  90%
 🔄 ELT/ETL Pipelines       ████████████████████  95%
 ❄️ Snowflake               ████████████████████  95%
-🟠 dbt (Data Build Tool)   ██████████████████░░  90%
 🟢 Matillion               █████████████████░░░  85%
+🟠 dbt (Data Build Tool)   ██████████████████░░  90%
 🐍 Python                  ████████████████░░░░  80%
 📊 SQL                     ████████████████████  95%
-☁️ Cloud Platforms         ███████████████░░░░░  75%
+☁️ Cloud Platforms (AWS)   ███████████████░░░░░  75%
 ```
+
+---
+
+## 💼 Work Experience
+
+### 🏢 Snap Analytics — Pune, Maharashtra, India · Hybrid
+> *Full-time · 1 yr 7 mos*
+
+---
+
+#### 🔹 Data Consultant (C1) &nbsp;|&nbsp; Oct 2025 – Present &nbsp;`6 months`
+
+- 🚨 Developed an **automated ETL pipeline failure monitoring and email alert system** with centralized error logging in Snowflake
+- 📋 Implemented a **post-run orchestration job** to generate failure summaries and detailed error reports
+- 👁️ Improved **observability** and reduced manual intervention for production data pipelines
+
+`Snowflake` `SQL` `Python` `Matillion` `ETL Monitoring` `Orchestration`
+
+---
+
+#### 🔹 Data Consultant (A2) &nbsp;|&nbsp; Sep 2024 – Sep 2025 &nbsp;`1 yr 1 mo`
+
+- 🔄 Built and managed **ETL pipelines using Matillion**, automating ingestion from multiple data sources
+- ⚡ Enhanced pipeline efficiency and **reduced load time by 30%** through process optimisation
+- ✅ Implemented **data validation checks**, ensuring **99% accuracy** across BI dashboards
+- 📚 Documented and standardised **data architecture best practices** to streamline onboarding and maintenance
+- ☁️ Supported **data migration to cloud-based infrastructure** with zero downtime
+- 📊 Collaborated with analytics teams to deliver **automated reporting solutions**, improving business visibility
+
+`Snowflake` `SQL` `Python` `Matillion` `AWS` `Data Validation` `BI Dashboards`
 
 ---
 
 ## 💡 What I Do
 
-- 🔧 **Build & maintain** robust ELT/ETL data pipelines using **dbt** and **Matillion**
+- 🔧 **Build & maintain** robust ELT/ETL data pipelines using **Matillion** and **dbt**
 - ❄️ **Design & optimize** data warehouses on **Snowflake** for performance and cost efficiency
-- 📐 **Architect** scalable **data models** (Star Schema, Snowflake Schema, Data Vault concepts)
+- 📐 **Architect** scalable **data models** (Star Schema, Snowflake Schema, Data Vault)
+- 🚨 **Monitor & alert** on pipeline failures with automated observability systems
 - 🐍 **Automate** data workflows and transformations using **Python**
 - 🔍 **Write complex SQL** for data transformation, analysis, and quality checks
-- 📦 **Implement** data quality testing and documentation in dbt projects
-- 🚀 **Collaborate** with analysts and stakeholders to turn business needs into data solutions
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=tejasugale&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=00d4ff&text_color=a0c4ff"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tejasugale&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=a0c4ff"/>
-
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=tejasugale&theme=tokyonight&hide_border=true&background=0D1117&ring=00d4ff&fire=ff6b6b&currStreakLabel=00d4ff)](https://git.io/streak-stats)
-
-</div>
-
----
-
-## 📌 Featured Projects
-
-> 🔨 *Projects pinned on your GitHub will appear here. Below are suggested project categories based on your skills:*
-
-| Project | Description | Stack |
-|---|---|---|
-| 🏗️ **dbt-snowflake-pipeline** | End-to-end ELT pipeline with dbt models, tests & docs | `dbt` `Snowflake` `SQL` |
-| 🔄 **matillion-etl-framework** | Reusable Matillion job templates and best practices | `Matillion` `Snowflake` |
-| 🐍 **data-modelling-toolkit** | Python utilities for data modelling and schema design | `Python` `SQL` |
-| 📊 **snowflake-performance-lab** | Query optimization, clustering & cost management tips | `Snowflake` `SQL` |
+- 🚀 **Collaborate** with analytics teams to turn business needs into data solutions
 
 ---
 
